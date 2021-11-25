@@ -1,0 +1,92 @@
+
+.claro {
+--colorPrimary: rgb(151, 196, 197);
+--colorSecondary: rgb(3, 3, 3);
+--colorAlternative: rgba(255, 255, 255, 0.637);
+width: 100%;
+height: 42em;
+background-color: var(--colorPrimary);
+}
+
+.oscuro {
+    --colorPrimary: rgb(0, 0, 0);
+    --colorSecondary: rgb(197, 42, 14);
+    width: 100%;
+    height: 42em;
+    background-color: var(--colorPrimary)
+    }
+
+    .box {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+.input {
+    width: 650px;
+    height: 110px;
+    border: 2px solid var(--colorAlternative);
+    border-radius: 6px;
+}
+.input:hover {
+    width: 660px;
+    height: 120px;
+    border: 1px solid var(--colorSecondary);
+}
+
+h1 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    color: var(--colorSecondary);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+}
+h1:hover {
+    color: orange;
+    font-weight: bolder;
+}
+
+.boton {
+    border-radius: 12px;
+    background-color: var(--colorSecondary);
+    color: var(--colorPrimary);
+    font-weight: bold;
+    margin-top: 30px;
+    border: 3px solid rgb(102, 102, 102);
+   
+}
+.boton:hover {
+    color: orange;
+    border: 4px solid rgb(102, 102, 102);
+}
+
+.tema {
+    border-radius: 12px;
+    background-color: var(--colorSecondary);
+    margin-left: 90%;
+    margin-top: auto;
+    border: 3px solid rgb(102, 102, 102);
+}
+.tema:hover {
+    border: 4px solid rgb(102, 102, 102);
+}
+
+.section {
+    margin-top: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.section button {
+    border-radius: 12px;
+    margin: 10px 10px;
+    border: 3px solid rgb(102, 102, 102);
+
+}
+.section button:hover {
+    color: orange;
+    border: 4px solid rgb(102, 102, 102);
+}
